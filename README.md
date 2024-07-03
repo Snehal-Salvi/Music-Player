@@ -8,7 +8,11 @@ This application allows you to listen to your favorite songs, navigate through a
 
 ## 🎬 Application Demo
 
-### 📸 Snapshots
+
+https://github.com/Snehal-Salvi/Music-Player/assets/125987932/97aa0056-9e77-4da5-8751-18e3f6fd80be
+
+
+## 📸 Snapshots
 
 - **Home Page**
 
