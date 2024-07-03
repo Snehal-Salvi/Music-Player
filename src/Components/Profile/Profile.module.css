@@ -1,0 +1,68 @@
+.profileContainer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.appNameContainer {
+  display: flex;
+  align-items: center;
+  width: 133.41px;
+  height: 40px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.name {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  transition: color 0.3s ease;
+}
+
+.profilePicContainer {
+  display: flex;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.profilePic {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.appNameContainer:hover .logo,
+.profilePicContainer:hover .profilePic {
+  transform: scale(1.1);
+  opacity: 0.8;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.4);
+}
+
+.appNameContainer:hover .name {
+  color: #1DB954;
+}
+
+@media (max-width: 768px) {
+  .profileContainer {
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+  }
+
+  .appNameContainer,
+  .profilePicContainer {
+    padding: 8px;
+  }
+}
